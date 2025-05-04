@@ -15,7 +15,7 @@ import Expense from "./pages/Dashboard/Expense";
 function App() {
 
   return (
-    <>
+    <div>
       <Router>
         <Routes>
           <Route path="/" element={<Root/>} />
@@ -26,7 +26,7 @@ function App() {
           <Route path='/expense' element={<Expense/>} />
         </Routes>
       </Router>
-    </>
+    </div>
   )
 }
 
